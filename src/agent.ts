@@ -14,7 +14,7 @@ export default async function agent(
 ): Promise<void> {
   const agent = new Agent({
     name: "blaxel-agent-mastra",
-    model: await blModel("{{.Model}}").ToMastra(),
+    model: await blModel("sandbox-openai").ToMastra(),
     tools: {
       ...(await blTools(["blaxel-search"]).ToMastra()),
       weatherTool: createTool({
