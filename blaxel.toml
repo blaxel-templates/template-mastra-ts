@@ -1,5 +1,3 @@
-name = "agent-mastra"
-workspace = ""
 type = "agent"
 
 functions = ["all"]
