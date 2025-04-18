@@ -12,8 +12,8 @@ importers:
         specifier: ^1.2.5
         version: 1.3.10(zod@3.24.2)
       '@blaxel/sdk':
-        specifier: 0.1.8
-        version: 0.1.8(da96ae450ce42bcb09317c48df5ba7f9)
+        specifier: 0.1.9
+        version: 0.1.9(da96ae450ce42bcb09317c48df5ba7f9)
       '@mastra/core':
         specifier: ^0.6.4
         version: 0.6.4(react@19.1.0)
@@ -338,8 +338,8 @@ packages:
     resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
     engines: {node: '>=6.9.0'}
 
-  '@blaxel/sdk@0.1.8':
-    resolution: {integrity: sha512-p97JwmRdwGgQMk7cUmk6WtiR6qBJolOIelK12LTLiXnlndHYOEjv6+Ys/24Li3a7WleRKfk+9k/0JZAaOPStUA==}
+  '@blaxel/sdk@0.1.9':
+    resolution: {integrity: sha512-U4AQCXHXNf4tQhuVq+SUj9WSk1GPcEDdamrRP97yf/azNeuHMZucrUPL6pbsESmllOpjZi5U1r6FXQvS/eHu6A==}
     engines: {node: '>=18'}
     peerDependencies:
       '@ai-sdk/anthropic': ^1.2.9
@@ -4423,7 +4423,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@blaxel/sdk@0.1.8(da96ae450ce42bcb09317c48df5ba7f9)':
+  '@blaxel/sdk@0.1.9(da96ae450ce42bcb09317c48df5ba7f9)':
     dependencies:
       '@hey-api/client-fetch': 0.5.7
       '@modelcontextprotocol/sdk': 1.9.0
