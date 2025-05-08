@@ -1,4 +1,4 @@
-import { blModel, blTools } from "@blaxel/sdk";
+import { blModel, blTools } from "@blaxel/mastra";
 import { Agent } from "@mastra/core/agent";
 import { createTool } from "@mastra/core/tools";
 import { z } from "zod";
@@ -14,9 +14,9 @@ export default async function agent(
 ): Promise<void> {
   const agent = new Agent({
     name: "blaxel-agent-mastra",
-    model: await blModel("sandbox-openai").ToMastra(),
+    model: await blModel("sandbox-openai"),
     tools: {
-      ...(await blTools(["blaxel-search"]).ToMastra()),
+      ...(await blTools(["blaxel-search"])),
       weatherTool: createTool({
         id: "weatherTool",
         description: "Get the weather in a specific city",
