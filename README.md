@@ -19,7 +19,7 @@ A template implementation of a conversational agent using Mastra and GPT-4. This
 - **Node.js:** v18 or later.
 - **[Blaxel CLI](https://docs.blaxel.ai/Get-started):** Ensure you have the Blaxel CLI installed. If not, install it globally:
   ```bash
-  curl -fsSL https://raw.githubusercontent.com/beamlit/toolkit/main/install.sh | BINDIR=$HOME/.local/bin sh
+  curl -fsSL https://raw.githubusercontent.com/blaxel-ai/toolkit/main/install.sh | BINDIR=$HOME/.local/bin sh
   ```
 - **Blaxel login:** Login to Blaxel platform
   ```bash
@@ -31,7 +31,7 @@ A template implementation of a conversational agent using Mastra and GPT-4. This
 **Clone the repository and install dependencies:**
 
 ```bash
-git clone https://github.com/beamlit/template-mastra-ts.git
+git clone https://github.com/blaxel-ai/template-mastra-ts.git
 cd template-mastra-ts
 uv sync
 ```
