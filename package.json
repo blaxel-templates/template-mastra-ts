@@ -13,9 +13,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@blaxel/core": "0.2.46",
-    "@blaxel/mastra": "0.2.46",
-    "@blaxel/telemetry": "0.2.46",
+    "@blaxel/core": "0.2.47",
+    "@blaxel/mastra": "0.2.47",
+    "@blaxel/telemetry": "0.2.47",
     "@mastra/core": "0.23.2",
     "fastify": "^5.6.1"
   },
