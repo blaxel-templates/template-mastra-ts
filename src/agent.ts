@@ -11,6 +11,7 @@ export default async function agent(
   stream: Stream
 ): Promise<void> {
   const agent = new Agent({
+    id: "blaxel-agent-mastra",
     name: "blaxel-agent-mastra",
     instructions: "If the user ask for the weather, use the weather tool.",
     model: await blModel("sandbox-openai"),
