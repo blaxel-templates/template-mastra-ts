@@ -17,6 +17,7 @@ overrides:
   qs@>=6.0.0 <6.16.1: 6.16.1
   undici@>=7.0.0 <7.30.1: 7.30.1
   undici@>=6.0.0 <6.29.1: 6.29.1
+  re2js@>=2.0.0 <2.8.7: 2.8.7
 
 importers:
 
@@ -2582,9 +2583,9 @@ packages:
   rc9@3.1.0:
     resolution: {integrity: sha512-ufjkNVzbRHKcCOmTahZkmVsyc3W+MSk3jY03m+a7tGHkIsdVMG9l10/3HvFbWkkKzY5VFp3pkRsIo/UYgmFL7Q==}
 
-  re2js@2.8.6:
-    resolution: {integrity: sha512-xLgQil4kIUCrAzVk9fRSkxkFNwmygLFjVxXrLc65aE1F0+Zsb8rxumFBy4XKyvgMCTL6kilDq3EZ0piE2dP/Dg==}
-    engines: {node: '>=18.0.0'}
+  re2js@2.8.7:
+    resolution: {integrity: sha512-bRSL/vn3KAmlGfGNoVpcsBXLaVvl6AbuvMMWbz0m3vBj60nj+p2/biozfBUOSBP+5XTduF6mr6IO/ZVjmqqkVQ==}
+    engines: {node: '>=20.0.0'}
 
   readable-stream@2.3.8:
     resolution: {integrity: sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==}
@@ -3691,7 +3692,7 @@ snapshots:
       p-retry: 7.1.1
       picomatch: 4.0.7
       posthog-node: 5.55.2
-      re2js: 2.8.6
+      re2js: 2.8.7
       ws: 8.22.0
       xxhash-wasm: 1.1.0
       zod: 4.6.6
@@ -5818,7 +5819,7 @@ snapshots:
       defu: 6.1.7
       destr: 2.0.5
 
-  re2js@2.8.6: {}
+  re2js@2.8.7: {}
 
   readable-stream@2.3.8:
     dependencies:
